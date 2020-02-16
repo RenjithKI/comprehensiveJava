@@ -1,4 +1,4 @@
-package regEx;
+package regExpr;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,14 +10,14 @@ public class RegexMatches {
       String pattern = "(.*)(\\d+)(.*)";
 
       // Create a Pattern object
-      Pattern r = Pattern.compile(pattern);
+      Pattern patt = Pattern.compile(pattern);
 
       // Now create matcher object.
-      Matcher m = r.matcher(line);
-      if (m.find( )) {
-         System.out.println("Found value: " + m.group(0) );
-         System.out.println("Found value: " + m.group(1) );
-         System.out.println("Found value: " + m.group(2) );
+      Matcher matcher = patt.matcher(line);
+      if (matcher.find( )) {
+         System.out.println("Found value: " + matcher.group(0) );
+         System.out.println("Found value: " + matcher.group(1) );
+         System.out.println("Found value: " + matcher.group(2) );
       }else {
          System.out.println("NO MATCH");
       }

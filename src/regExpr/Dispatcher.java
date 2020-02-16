@@ -1,4 +1,4 @@
-package regEx;
+package regExpr;
 import java.util.ArrayList;
 import java.util.HashMap;
 

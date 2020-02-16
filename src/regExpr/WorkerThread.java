@@ -1,4 +1,4 @@
-package regEx;  
+package regExpr;  
 class WorkerThread implements Runnable {  
     private String message;  
     public WorkerThread(String s){  
