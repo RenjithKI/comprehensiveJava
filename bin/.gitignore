@@ -13,7 +13,8 @@
 /helloworld6.class
 /helloworld7.class
 /helloworld9.class
-/regEx/
+/lambdaComprehensive/
+/regExpr/
 /streamUSe.class
 /streamUSe2.class
 /streamUSe3.class
@@ -29,5 +30,4 @@
 /stringCleaniningHTMLtags.class
 /stringCleaniningHTMLtagsVariant.class
 /stringCleaniningHTMLtagsVariant2.class
-/regExpr/
-/lambdaComprehensive/
+/java8Time/
